@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Página de Dashboard</title>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript"></script>
+  <link rel="stylesheet" href="css/dash-geral.css">
+  <link rel="stylesheet" href="css/dash-sidebar.css" />
+  <link rel="stylesheet" href="css/dash-conteudo.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="fontawesome-free-5.15.2-web/fontawesome-free-5.15.2-web/css/all.css" />
+  <link rel="icon" href="img/grafico-spline.png" />
+<<<<<<< HEAD
+</head>
+
+<body>
+=======
+  <script src="js/funcoes.js"></script>
+
+</head>
+
+<script>
+  let usuario;
+  verificar_autenticacao();
+</script>
+
+<body onload="verificar_autenticacao()">
+
+>>>>>>> 24e09aecffd5e2278c4ac246b1800ca445f95088
+  <div class="dashboard">
+    <!-- INICIO HEADER -->
+    <div class="dashboard-header">
+      <div class="header">
+        <a href="" class="logo">Getmobi</a>
+        <div class="header-right">
+
+<<<<<<< HEAD
+          <a href="#">Logout</a>
+=======
+          <a href="#" onclick="logoff()">Logout</a>
+>>>>>>> 24e09aecffd5e2278c4ac246b1800ca445f95088
+        </div>
+      </div>
+    </div>
+    <!-- FIM HEADER -->
+
+    <!-- INICIO SIDEBAR -->
+    <div class="container-sidebar-conteudo-dash">
+      <div class="dashboard-sidebar">
+        <div class="container-info-user">
+          <div class="container-foto-user">
+            <div class="circulo-foto">
+              <div class="foto" src=""></div>
+            </div>
+          </div>
+<<<<<<< HEAD
+          <div class="name-user">Angelo Souza</div>
+          
+=======
+          <div class="name-user" id="b_usuario">Professor</div>
+          <div class="icons-atalhos">
+
+          </div>
+          <div class="container-buttons-user">
+
+          </div>
+>>>>>>> 24e09aecffd5e2278c4ac246b1800ca445f95088
+        </div>
+        <ul>
+          <li>
+            <i id="pagina-atual" class="far fa-chart-bar"></i>
+            <a href="dashboard-geral.html">Dashboard</a>
+          </li>
+          <li>
+            <i  class="fas fa-chart-pie"></i>
+            <a href="dash-aluno.html">Gráficos</a>
+          </li>
+          <li>
+            <i class="fas fa-user"></i>
+            <a href="dash-perfil.html">Perfil</a>
+          </li>
+        </ul>
+      </div>
+
+
+
+      <table id="dados-table">
+        <tbody>
+          <tr>
+            <td class="title-column">Nome</td>
+            <td class="title-column">Sala</td>
+            <td class="title-column">Nota</td>
+            <td class="title-column">Informações</td>
+          </tr>
+          <tr>
+            <td id="primeiro">Lucas Yudi Nishimoto</td>
+            <td>3º ano C</td>
+            <td>7,5</td>
+            <td><button onclick="mudarPagina()" id="botao" class="btn-hover">Gráficos</button></td>
+
+          </tr>
+          <tr>
+            <td id="primeiro">Marcio Santana</td>
+            <td>3º ano C</td>
+            <td class="negativo" >4,5</td>
+            <td><button onclick="mudarPagina()" id="botao" class="btn-hover">Gráficos</button></td>
+
+          </tr>
+          <tr>
+            <td>Rafael Rocha</td>
+            <td>3º ano D</td>
+            <td>8,5</td>
+            <td><button onclick="mudarPagina()" id="botao" class="btn-hover">Gráficos</button></td>
+          </tr>
+          <tr>
+            <td id="primeiro">Thiago Bonacelli</td>
+            <td>3º ano C</td>
+            <td class="negativo" > 5,5</td>
+            <td><button onclick="mudarPagina()" id="botao" class="btn-hover">Gráficos</button></td>
+
+          </tr>
+          <tr>
+            <td>Nicholas Forte</td>
+            <td>2º ano C</td>
+            <td >8,5</td>
+            <td><button onclick="mudarPagina()" id="botao" class="btn-hover">Gráficos</button></td>
+          </tr>
+          <tr>
+            <td>Luis Gustavo</td>
+            <td>1º ano A</td>
+            <td>8,0</td>
+            <td><button onclick="mudarPagina()" id="botao" class="btn-hover">Gráficos</button></td>
+          </tr>
+          <tr>
+            <td>Lucas Souza</td>
+            <td>1º ano C</td>
+            <td class="">7,0</td>
+            <td><button onclick="mudarPagina()" id="botao" class="btn-hover">Gráficos</button></td>
+          </tr>
+          <tr>
+            <td>Vinicius Cano</td>
+            <td>1º ano C</td>
+            <td>8,5</td>
+            <td><button onclick="mudarPagina()" id="botao" class="btn-hover">Gráficos</button></td>
+          </tr>
+        </tbody>
+      </table>
+
+
+</body>
+
+</html>
+<script type="text/javascript">
+
+  function mudarPagina() {
+
+    window.location.href = "dash-aluno.html";
+  }
+
+
+
+</script>

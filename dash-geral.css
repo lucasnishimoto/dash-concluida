@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f0f2f5;
+  font-family: "poppins", sans-serif;
+}
+
+.titulo {
+  background: #333333;
+  padding: 2rem 24rem 2rem 2rem;
+  text-align: center;
+}
+
+#logo {
+  color: #fff;
+  font-weight: 800;
+}
+
+#dados-table {
+  width: 80%;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-right: 40px;
+  border-spacing: 0 0.5rem;
+}
+table th {
+  background: white;
+  font-weight: 800;
+  padding: 1rem 2rem;
+  text-align: left;
+}
+table td {
+  background: white;
+  padding: 1rem 2rem;
+}
+table tr:hover {
+  opacity: 1;
+}
+table tr {
+  opacity: 0.7;
+}
+
+table thead tr th:first-child,
+table tbody tr td:first-child {
+  border-radius: 0.25rem 0 0 0.25rem;
+}
+
+.btn-hover {
+  min-height: 45px;
+  width: 100px;
+  border-radius: 30px;
+  border: 0px white;
+  background-color: rgb(238, 238, 238);
+  font-family: Inconsolata, monospace;
+  color: rgb(0, 0, 0);
+  height: 45px;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+#pagina-atual {
+    background-color: rgb(10 132 227);
+    color: white;
+}
+
+.negativo {
+  color: red;
+}
